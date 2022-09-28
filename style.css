@@ -1,0 +1,149 @@
+body{
+    width: 100%;
+    margin: auto;
+}
+#nav_bar{
+    border: 0px solid orange;
+    background-color: 
+    #172132;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom:-20px;
+    margin-top: -10px; */
+    }
+#nav_bar>#menu{
+    width: 50%;
+    border: px solid white;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 15%;
+}
+#menu>a{
+    color: white;
+    border: px solid wheat;
+}
+#menu>a>img{
+    border: px solid pink;
+}
+#logo{
+    color: white;
+    margin-left: 20%;
+    border: px solid white;
+    width: 10%;  
+    font-size: 30px;
+}
+#menu>a:nth-child(1)>img{
+    margin-left: 30px;
+}
+#menu>a:nth-child(2)>img,#menu>a:nth-child(3)>img{
+    margin-left: 15px;
+}
+
+#menu>a:nth-child(4)>img,#menu>a:nth-child(5)>img,#menu>a:nth-child(8)>img{
+    margin-left: 5px;
+}
+
+#menu>a:nth-child(6)>img,#menu>a:nth-child(7)>img{
+    margin-left: 10px;
+}
+#menu>a:nth-child(9)>img{
+    margin-left: 4px;
+}
+
+/* Sliding window */
+#sliding{
+    border: 0px solid black;
+    height: 300px;
+    background-color: 
+    #af2c30;
+    /* margin-left: -10px;
+    margin-right: -10px; */
+    padding-top: 30px;
+    
+    
+}
+#container{
+    border: 1px solid white;
+    width: 50%;
+    background-color: white;
+    margin: auto;
+    border-radius: 5px;
+    padding: 1px 15px 0px 15px;
+  
+}
+#container>div:nth-child(3){
+    margin-top: 10px;
+}
+#container>h3{
+    margin-bottom: 5px;
+}
+#venue{
+    color: grey;
+    
+}
+#schedule{
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid rgb(223, 212, 3);
+}
+
+.flag{
+    height: 20px;
+}
+
+#ftm{
+    border: 0px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#DandT{
+    border: 0px solid rgb(15, 37, 198);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 50%;
+}
+#tlft{
+    border: 0px solid black;
+    margin-top: 10px;
+    width: 18%;
+    border-radius: 12px;
+    padding: 3px;
+    background-color: #feead9;
+    color: #837970;
+}
+#line{
+    border: 0px solid blue;
+    height: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+#red_line{
+   border: 0px solid red;
+   height: 1px;
+   width: 50%;
+}
+#green_line{
+    border: 0px solid green;
+    height: 1px;
+    width: 50%;
+ }
+#percentage{
+    border: 0px solid rgb(53, 191, 26);
+    display: flex;
+    justify-content: space-between;
+}
+#team_name{
+    border: 0px solid orchid;
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+}
