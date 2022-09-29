@@ -12,10 +12,7 @@ body{
     height: 80px;
     padding-left: 20px;
     padding-right: 20px;
-    /* margin-left: -10px;
-    margin-right: -10px;
-    margin-bottom:-20px;
-    margin-top: -10px; */
+   
     }
 #nav_bar>#menu{
     width: 50%;
@@ -70,7 +67,7 @@ body{
 }
 #container{
     border: 1px solid white;
-    width: 50%;
+    width: 45%;
     background-color: white;
     margin: auto;
     border-radius: 5px;
@@ -146,4 +143,217 @@ body{
     display: flex;
     justify-content: space-between;
     color: grey;
+}
+
+/* match summary section */
+
+#M-container{
+    border: px solid #172132;
+    width: 65%;
+    margin: auto;
+    margin-top: -20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    
+}
+#C-nav_bar{
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #172132;
+    height: 50px;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 23px;
+}
+
+#lower{
+    border: px solid red;
+    display: flex;
+}
+#C-L{
+    border: px solid rgb(0, 89, 255);
+    background-color: #172132;
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.bm_img{
+    border: px solid white;
+    width: 30%;
+    position: relative;
+   
+}
+.bm_img>img{
+    border: px solid white;
+   position: absolute;
+   bottom: 0;
+}
+#batsman{
+    border: px solid grey; 
+    display: flex;
+    color: white;
+}
+#bm_score{
+    border: px solid white;
+    display: flex;
+    align-items: center;
+    
+}
+#bm_performance{
+    border: px solid rgb(219, 24, 213); 
+    height: 80%;
+    margin-top: 60px;
+    height: 100px;
+
+}
+#flag_img1{
+    border:px solid white ; 
+    width: 20%;
+    margin-right: -25px;
+}
+.f_and_n{
+    border:px solid white;
+     font-size: 20px;
+     width:45%; 
+     margin: auto
+}
+#f_n{
+    border:px solid blanchedalmond;
+    display: flex;
+    padding-left: 10px;
+    
+}
+#rbsf{
+    border:px solid white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    font-size: 20px;
+}
+#bm-run{
+    padding: 5px 15px 5px 15px;
+    background-color: #2f3847;
+    border-radius: 15px;
+}
+.padding{
+    padding: 5px 15px 5px 15px;
+}
+#bowler{
+    border: 1px solid grey; 
+    display: flex;
+    color: white;
+}
+#flag_img2{
+    border:px solid white ; 
+    width: 20%;
+    margin-right: -20%;
+}
+#flag_img2>img{
+   width: 100%;
+}
+#br{
+border: px solid white;
+display: flex;
+justify-content: space-between;
+width: 70%;
+font-size: 20px;
+align-items: center;
+margin-left: 10px;
+margin-bottom: 15px;
+}
+#br_status{
+    font-size: 20px;
+    border: px solid white;
+    width: 80%;
+    text-align: center;
+}
+#C-R{
+    border: px solid black;
+    width: 50%;  
+}
+#team_SA{
+    border: px solid red;
+}
+.team_nav{
+    border: px solid rgb(117, 9, 156);
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    justify-content: space-between;
+    
+}
+.team_nav>div{
+    display: flex;
+    border: px solid black;
+    align-items: center;
+    font-weight: bold;
+}
+.team_nav>div>img{
+    width: 15%;
+}
+.team_nav>div>img+div{
+    margin-left: 20px;
+}
+.team_score{
+    color: grey;
+    display: flex;
+}
+.team_score>div{
+    color: #aa1b1b;
+    margin-right: 8px;
+    font-weight: bold;
+}
+.bat_ball{
+    border: px solid green;
+    display: flex;
+    line-height: 30px;
+    
+}
+.bat_ball>div{
+    border: px solid orange;
+    padding: 10px;
+    width: 100%;
+    
+}
+.bat_ball>div>div{
+    border: px solid black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+    
+   
+}
+
+/* Featured Videos */
+
+#f_videos{
+    border: px solid black;
+    width: 65%;
+    margin: auto;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin-top: 20px;
+}
+#f_nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 20px 25px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    margin-bottom: 20px;
+}
+#f_container{
+    display:flex ;
+    padding: 10px;
+    margin: auto;
+}
+.f_box{
+    border: px solid red;
+    width: 30%;
+    margin: auto;
+    height: 220px;
+}
+.f_box img{
+    width: 100%;
+    
 }
