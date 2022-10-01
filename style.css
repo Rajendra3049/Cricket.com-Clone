@@ -29,7 +29,12 @@ body{
 }
 #menu>a{
     color: white;
-    border: px solid wheat;
+    border: px solid wheat; 
+    padding: 15px;
+}
+#menu>a:hover{
+    background-color: #837970;
+    border-bottom: 3px solid red;
 }
 #menu>a>img{
     border: px solid pink;

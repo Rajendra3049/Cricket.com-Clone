@@ -1,0 +1,238 @@
+
+a{
+    text-decoration: none;
+}
+body{
+    
+    width: 100%;
+    margin: auto;
+    background-color: 
+    #e8e9ef;
+}
+#nav_bar{
+    border: 0px solid orange;
+    background-color: 
+    #172132;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    }
+#nav_bar>#menu{
+    width: 50%;
+    border: px solid white;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 15%;
+}
+#menu>a{
+    color: white;
+    border: px solid wheat; 
+    padding: 15px;
+}
+#menu>a{
+    color: white;
+    border: px solid wheat;
+}
+#menu>a>img{
+    border: px solid pink;
+}
+#logo{
+    color: white;
+    margin-left: 20%;
+    border: px solid white;
+    width: 10%;  
+    font-size: 30px;
+}
+#menu>a:nth-child(1)>img{
+    margin-left: 30px;
+}
+#menu>a:nth-child(2)>img,#menu>a:nth-child(3)>img{
+    margin-left: 15px;
+}
+
+#menu>a:nth-child(4)>img,#menu>a:nth-child(5)>img,#menu>a:nth-child(8)>img{
+    margin-left: 5px;
+}
+
+#menu>a:nth-child(6)>img,#menu>a:nth-child(7)>img{
+    margin-left: 10px;
+}
+#menu>a:nth-child(9)>img{
+    margin-left: 4px;
+}
+#main_containar{
+    width: 60%;
+    border: 1px solid  #e8e9ef;
+    margin: auto;
+}
+#main_containar>h2{
+    margin-top:90px;
+}
+#main_containar>h2+div{
+    background-color: white;
+}
+#s_nav1{
+    border: px solid red;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 15px;
+}
+#s_nav2{
+    border: px solid rgb(0, 140, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 10px 10px;
+}
+#nav_left{
+    border: px solid red;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    font-size: 12px;
+}
+#nav_left>div:nth-child(1){
+    border: 1px solid #a70e13;
+    padding: 5px 25px 5px 25px;
+    border-radius: 20px;
+    color:#a70e13 ;
+}
+#nav_left>div:nth-child(2){
+    border: 1px solid #43b88e;
+    padding: 5px 25px 5px 25px;
+    border-radius: 20px;
+}
+#nav_left>div:nth-child(3){
+    border: 1px solid #a4c0c6;
+    padding: 5px 25px 5px 25px;
+    border-radius: 20px;
+}
+#nav_left>div:nth-child(4){
+    border: 1px solid#ff8474 ;
+    padding: 5px 25px 5px 25px;
+    border-radius: 20px;
+}
+#nav_right{
+    border: none;
+    background-color:#a70e13;
+    padding: 6px 25px 6px 25px;
+    color: white;
+    border-radius: 3px;
+}
+img+span{
+    border: px solid white;
+    margin-left: 5px;
+    font-size: 18px;
+}
+#rj{
+    width: 80%;
+    margin: auto;
+}
+.small_boxs{
+    border: px solid green;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    margin: auto;
+    margin-top: 15px;
+}
+.dis{
+    border: px solid orange;
+    padding-left: 10px;
+    
+}
+.dis h3{
+    padding-top: 2px;
+    margin-bottom: -6px;
+}
+.dis>div{
+    border: px solid rgb(113, 14, 31);
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+.dis>div+div{
+    border: px solid blue;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+}
+.date{
+    
+    padding:10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.grn{
+    background-color: #43b88e;
+}
+.light_red{
+    background-color: #ff8474;
+}
+.grey{
+    background-color: #a4c0c6;
+}
+.b_grn{
+    border:1px solid #43b88e;
+}
+.b_light_red{
+    border:1px solid #ff8474;
+}
+.b_grey{
+    border:1px solid #a4c0c6;
+}
+#footer{
+    border: px solid red;
+    height: 150px;
+    background-color: 
+    #172132;
+    display: flex;
+    align-items: center; 
+}
+#footer>div{
+    border: px solid white;
+    height: 100px;
+    display: flex;
+    color: white;
+    width:65% ;
+    margin: auto;
+    justify-content: space-between;
+    color: #837970;
+    margin-top: 40px;
+    font-size: 13px;
+}
+#mid{
+    width: 25%;
+    border: px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#end{
+    border: px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: center;
+}
+#end>div{
+    border: px solid wheat;
+    display: flex;
+    justify-content: space-between;
+}
+#end-1{
+    margin-right: 20px;
+}
